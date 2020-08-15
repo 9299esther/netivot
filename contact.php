@@ -15,18 +15,18 @@ $email    = $_POST['email'];
 $comments = $_POST['comments'];
 
 if(trim($first_name) == '') {
-	echo '<div class="error_message">Attention! You must enter your name.</div>';
+	echo '<div class="error_message">זהו שדה חובה.</div>';
 	exit();
 }  else if(trim($email) == '') {
-	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
+	echo '<div class="error_message">זהו שדה חובה.</div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message">זהו שדה חובה.</div>';
 	exit();
 }
 
 if(trim($comments) == '') {
-	echo '<div class="error_message">Attention! Please enter your message.</div>';
+	echo '<div class="error_message">זהו שדה חובה.</div>';
 	exit();
 }
 
@@ -40,7 +40,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "example@yourdomain.com";
+$address = "9299esther@gmail.com";//netanel@netivot.co.il
 
 
 // Configuration option.
