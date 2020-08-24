@@ -206,26 +206,27 @@
                 <p>השאירו את פרטיכם ונציגנו יחזרו אליכם בהקדם:
                 </p>
                 <div class="form_section">
-                  <form class="form_contant" action="index.html">
+                  <form class="form_contant" action="contact.php" method="POST"><!--php file name+ method-->
                     <fieldset>
                       <div class="row">
                        <!--  <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
                           <input class="field_custom" placeholder="Websire URL" type="text" required />
                         </div> -->
                         <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                          <input class="field_custom" placeholder="שם מלא" type="text" required />
+                          <!--add name + id for each-->
+                          <input id="name" name="name" class="field_custom" placeholder="שם מלא" type="text" required />
                         </div>
                          <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                          <input class="field_custom" placeholder="טלפון" type="text" required />
+                          <input id="phone" name="phone" class="field_custom" placeholder="טלפון" type="text"  />
                         </div>
                         <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                          <input class="field_custom" placeholder="אימייל" type="Email" required />
+                          <input id="email" name="email" class="field_custom" placeholder="אימייל" type="Email" required />
                         </div>
                        
                         <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                          <textarea class="field_custom" placeholder="הודעה" required></textarea>
+                          <textarea id="comments" name="comments" class="field_custom" placeholder="הודעה" required></textarea>
                         </div>
-                        <div class="center"><a class="btn main_bt" href="#">שלחו</a></div>
+                        <div class="center"><a class="btn main_bt" type="submit" href="index.html">שלחו</a></div>
                       </div>
                     </fieldset>
                   </form>
