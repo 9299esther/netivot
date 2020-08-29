@@ -85,6 +85,7 @@ body {
 }
 
 body.demos .section {
+
 	background: url(images/bg.png) repeat top center #f2f3f5;
 }
 
@@ -748,6 +749,8 @@ hr.dottad_border {
 }
 
 .section {
+	/* padding-top: 155px;edd */
+	
 	float: left;
 	width: 100%;
 }
@@ -884,7 +887,7 @@ hr.dottad_border {
 /*----- header fix -----*/
 
 .fixed-header {
-	position: fixed;
+	position: fixed !important;/*edd*/
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -911,6 +914,10 @@ header .right_bt .btn {
 }
 
 .header_bottom {
+	padding-top: 80px;  /*edd*/
+	/* position: fixed !important;edd */
+	
+
 	min-height: auto;
 }
 
@@ -921,6 +928,7 @@ header .right_bt .btn {
 }
 
 .header_top ul li {
+
 	font-size: 14px;
 	color: #fff;
 	float: left;
@@ -961,7 +969,8 @@ header .right_bt .btn {
 }
 
 .header_style_1 .header_top {
-	position: relative;
+	
+	position: fixed;
 }
 
 .make_appo {
@@ -1450,6 +1459,7 @@ footer,
 	-------------------------------------------------------------------*/
 
 #full_slider.full_slider_inner {
+
 	position: relative;
 	z-index: 0;
 	min-height: 900px;
@@ -1535,6 +1545,7 @@ div#pallax_slider {
 }
 
 body.light_blue #full_slider.full_slider_inner {
+
 	background: url('../images/star_bg2.png');
 	background-size: cover;
 }
@@ -1552,6 +1563,7 @@ body.light_blue #full_slider.full_slider_inner {
 /** Slider Text **/
 
 .slider_contant {
+
 	position: relative;
 	z-index: 3;
 }
