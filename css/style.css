@@ -60,6 +60,10 @@
 /*------------------------------------------------------------------
 		3. BASIC
 	-------------------------------------------------------------------*/
+.iconSizing{
+	height: 62px;
+}
+
 
 * {
 
@@ -506,6 +510,7 @@ a:focus {
 }
 
 .full {
+	
 	width: 100%;
 	float: left;
 	margin: 0;
@@ -1563,7 +1568,7 @@ body.light_blue #full_slider.full_slider_inner {
 /** Slider Text **/
 
 .slider_contant {
-
+	direction: rtl;
 	position: relative;
 	z-index: 3;
 }
@@ -1598,7 +1603,7 @@ body.light_blue #full_slider.full_slider_inner {
 	height: 810px;
 }
 
-.home_page_4 #full_slider.full_slider_inner {
+.home_page_4 #full_slider.full_slider_inner { direction: rtl;
 	min-height: 810px;
 }
 
@@ -2016,9 +2021,10 @@ section.dottad_star_bg {
 	width: 100%;
 }
 
-.service_style_2 ul li {
+.service_style_2 ul li .inline{/*edd*/
 	display: inline;
 }
+
 
 .icon_feature {
 	width: 70px;
@@ -4057,6 +4063,11 @@ footer ul.social_icons {
 	float: left;
 	width: 100%;
 	padding: 35px 0;
+}
+.tab-content {
+	display: flex;	/*edd*/
+		width: 100%;
+
 }
 
 .product_review .rating i {
