@@ -541,7 +541,7 @@ a:focus {
 }
 
 .text_align_left {
-	text-align: left;
+	text-align: right;/*left*/
 }
 
 .text_align_center {
@@ -1098,7 +1098,7 @@ header .right_bt .btn {
 }
 
 #navbar_menu.align-center ul ul {
-	text-align: left;
+	 text-align: right;/*left */
 }
 
 #navbar_menu.align-right>ul>li {
@@ -2249,7 +2249,7 @@ textarea.field_custom {
 /**== Progress Bar ==**/
 
 .progress-bar {
-	text-align: left;
+	text-align:right;/*left */
 	transition-duration: 3s;
 }
 
@@ -3487,6 +3487,9 @@ footer ul.social_icons {
 	line-height: 18px;
 	padding: 0 15px;
 }
+p {/*edd*/
+	text-align: right;
+}
 
 /*------------------------------------------------------------------
 		17. CUSTOM
@@ -3495,8 +3498,11 @@ footer ul.social_icons {
 .service_blog_inner .icon img {
 	width: 65px;
 }
-
-.service_blog_inner h4.service-heading {
+h4.service-heading {
+	text-align: right;/*edd*/
+	margin: 25px 0 15px 0;
+}
+.service_blog_inner {
 	margin: 25px 0 15px 0;
 }
 
@@ -3824,7 +3830,7 @@ footer ul.social_icons {
 }
 
 .product-heading {
-	text-align: left;
+	text-align: right;/*left */
 	border-bottom: 1px solid #f0f0f0;
 }
 
@@ -3839,7 +3845,7 @@ footer ul.social_icons {
 
 .product-detail-side {
 	border-bottom: 1px solid #f0f0f0;
-	text-align: left;
+	text-align: right;/*left */
 	padding: 15px 0;
 }
 
@@ -3865,7 +3871,7 @@ footer ul.social_icons {
 }
 
 .detail-contant {
-	text-align: left;
+	text-align: right;/*left */
 	padding: 25px 0;
 	float: left;
 	width: 100%;
@@ -4559,8 +4565,8 @@ footer ul.social_icons {
 }
 
 .contant_form {
-	float: left;
-	width: 100%;
+	float: right;
+	width: 100% ;
 }
 
 .adress_cont i {
